@@ -1,0 +1,48 @@
+body {
+  background: rgb(3, 223, 243);
+}
+
+.container {
+    width: 245px;
+    height: 74px;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 169px;
+    animation: animate 1.5s linear infinite;
+    position: relative;
+    box-shadow: 0px 0px 0px 6px #fb0202;
+}
+
+  
+
+  
+.container2 {
+    position: absolute;
+    background: black;
+    top: 7px;
+    width: 234px;
+    height: 62px;
+    border-radius: 6px;
+    left: 6px;
+}
+h1#time {
+    position: absolute;
+    top: -7px;
+    font-family: sans-serif;
+    left: 19px;
+    cursor: default;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 1.5s linear infinite;
+    
+    
+}
+
+@keyframes animate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    
+}
